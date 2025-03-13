@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Diatype;
+    src: url(fonts/ABC\ Diatype\ Regular.ttf);
+}
+
+body {
+    font-family: Diatype;
+    font-size: .9rem;
+}
+
+header {
+    position: sticky;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    top: 1rem;
+    
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 2rem;
+}
+
+img {
+    width: 80%;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+
+.underline {
+    text-decoration: underline;
+    color: blue;
+}
+
+.info-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.project-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+       justify-items: center;
+
+    }
+
+    header {
+        font-size: .8rem;
+        justify-items: center;
+        position: sticky;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+        top: 1rem;
+    }
+
+    img {
+        width: 100%;
+    }
+    
+}

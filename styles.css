@@ -26,6 +26,10 @@ header {
     gap: 2rem;
 }
 
+.grid p {
+    display: none;
+}
+
 img {
     width: 80%;
 
@@ -57,6 +61,30 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.hover-sticker {
+    position: absolute;
+    background-color: yellow;
+   color:blue;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none;
+}
+
+/* Show sticker on hover */
+.grid a:hover .hover-sticker {
+    opacity: 1;
+}
+
+
+
 
 @media (max-width: 768px) {
     .grid {

@@ -26,9 +26,6 @@ header {
     gap: 2rem;
 }
 
-.grid p {
-    display: none;
-}
 
 img {
     width: 80%;
@@ -64,8 +61,8 @@ a:hover {
 
 .hover-sticker {
     position: absolute;
-    background-color: yellow;
-   color:blue;
+    background-color: rgb(95, 238, 95);
+   color:black;
     font-size: 14px;
     font-weight: bold;
     border-radius: 5px;

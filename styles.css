@@ -3,6 +3,16 @@
     src: url(fonts/ABC\ Diatype\ Regular.ttf);
 }
 
+
+#hover-image {
+    position: absolute;
+    display: none;
+    width: 400px;
+    height: auto;
+    pointer-events: none;
+}
+
+
 body {
     font-family: Diatype;
     font-size: .9rem;
@@ -71,7 +81,6 @@ a:hover {
 
 .underline {
     text-decoration: underline;
-    color: beige;
 }
 
 .info-section {
@@ -90,6 +99,8 @@ a:hover {
     animation: fadeIn 1s ease-in-out forwards;
 }
 
+
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -100,8 +111,6 @@ a:hover {
         transform: translateY(0);
     }
 }
-
-
 
 
 .project-list {

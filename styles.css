@@ -31,6 +31,9 @@ header {
     
 }
 
+video {
+    width: 80%;
+}
 
 .grid {
     font-size: 2rem;

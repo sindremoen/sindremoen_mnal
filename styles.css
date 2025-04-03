@@ -18,6 +18,9 @@ body {
     font-size: .9rem;
 }
 
+.index-page {
+    overflow: hidden;
+}
 header {
     z-index: 1111;
     background-color: white;
@@ -60,7 +63,9 @@ video {
     gap: 2rem;
 }
 
-
+.project-list a:hover {
+    font-style: italic;
+}
 
 
 img {

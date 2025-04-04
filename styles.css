@@ -67,6 +67,9 @@ video {
     font-style: italic;
 }
 
+.address {
+    margin-top: 2rem;
+}
 
 img {
     width: 80%;
@@ -157,6 +160,16 @@ a:hover {
     img {
         width: 100%;
     }
+
+    video {
+        width: 100%;
+    }
     
+    .text-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+
+    }
 }
 

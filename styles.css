@@ -244,19 +244,19 @@ a:hover {
     }
 
     .news-box {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 150px;
-        height: 300px;
-        background-color: #46FF69;
-        font-family: Diatype;
-        font-size: 0.8rem;
-        z-index: 9999;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        overflow: hidden;
-    }
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: 350px;
+    background-color: #46FF69;
+    font-family: Diatype;
+    font-size: 0.8rem;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+}   
 }
 

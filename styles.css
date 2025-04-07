@@ -63,6 +63,15 @@ video {
     gap: 2rem;
 }
 
+.two-grid {
+    font-family: Diatype;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 2rem;
+}
+
 .project-list a:hover {
     font-style: italic;
 }
@@ -136,6 +145,68 @@ a:hover {
 .grid a:hover .hover-sticker {
     opacity: 1;
 }
+
+.news-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    height: 400px;
+    background-color: #46FF69;
+    font-family: Diatype;
+    font-size: 0.8rem;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.news-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.news-body {
+    padding: 8px;
+    font-size: 0.75rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    position: relative;
+}
+
+.news-image {
+    margin-top: 1rem;
+    width: auto;
+    height: 250px;
+    align-items: center;
+    object-fit: cover;
+}
+
+.bottom-note {
+    font-size: 0.7rem;
+    align-self: flex-end;
+    margin-top: auto;
+    color: #333;
+}
+
+
 
 
 @media (max-width: 768px) {

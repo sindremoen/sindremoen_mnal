@@ -5,12 +5,17 @@
 
 
 #hover-image {
-    position: absolute;
-    display: none;
-    width: 400px;
-    height: auto;
-    pointer-events: none;
+  position: absolute;
+  pointer-events: none;
+  display: none;
+  width: 400px;   /* Explicit width */
+  height: auto;   /* Maintain aspect ratio */
+  object-fit: contain;
+  z-index: 1000;
+  transition: opacity 0.2s ease;
 }
+
+  
 
 
 body {

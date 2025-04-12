@@ -49,6 +49,7 @@ video {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     gap: 2rem;
+    align-items: center;
 }
 
 .text-grid {

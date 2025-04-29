@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const grid = document.querySelector(".grid");
   const images = Array.from(grid.children);
 
-  // Shuffle function using Fisher-Yates algorithm
+  // Shuffle function
   function shuffleArray(array) {
       for (let i = array.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));

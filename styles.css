@@ -3,6 +3,10 @@
     src: url(fonts/ABC\ Diatype\ Regular.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 
 #hover-image {
   position: absolute;
@@ -70,6 +74,36 @@ video {
     grid-template-rows: 1fr;
     gap: 2rem;
 }
+
+.sub-navigation {
+font-size: 1rem;
+display: flex;
+justify-content: flex-start;
+gap: 2rem;
+margin-bottom: 3rem;
+
+
+}
+
+.sub-navigation a:hover {
+
+}
+
+.undertitle {
+    font-family: Diatype;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-bottom: 2rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+
+}
+
 
 .two-grid {
     font-family: Diatype;
@@ -226,6 +260,20 @@ a:hover {
 
     }
 
+    .undertitle {
+        font-size: .8rem;
+        justify-items: center;
+        position: sticky;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .description {
+        display: none;
+    }
+
+
     header {
         font-size: .8rem;
         justify-items: center;
@@ -266,5 +314,9 @@ a:hover {
     justify-content: flex-start;
     overflow: hidden;
 }   
+
+.sub-navigation {
+    
+}
 }
 

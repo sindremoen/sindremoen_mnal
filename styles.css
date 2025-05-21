@@ -93,6 +93,7 @@ margin-bottom: 3rem;
     font-family: Diatype;
     font-size: 1rem;
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     gap: 2rem;
